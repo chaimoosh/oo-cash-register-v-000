@@ -23,10 +23,10 @@ class CashRegister
    else
      "There is no discount to apply."
    end
-   binding.pry
-  # def items
-   #  @@items
-   #end
+  
+  def items
+     @@items
+   end
   end 
     
 end 
