@@ -11,7 +11,7 @@ class CashRegister
 end 
 
 
- def self.create
-    @total = 0
-  end 
+ #def self.create
+  #  @total = 0
+  #end 
     
