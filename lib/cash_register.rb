@@ -5,7 +5,7 @@ class CashRegister
   
   def initialize(i = 0)
     @total = 0
-    @discount = i.to_f
+    @discount = i /= 100
   end
   
   def add_item(title, price, quantity = 1)
@@ -14,7 +14,7 @@ class CashRegister
  
   def apply_discount
     #binding.pry
-    @total *= (@discount *= 4)
+    @total *= @discount
   end 
     
 end 
