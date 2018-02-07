@@ -7,8 +7,11 @@ class CashRegister
     @total = 0
   end
   
-  def self.create
+ 
+end 
+
+
+ def self.create
     @total = 0
   end 
     
-end 
